@@ -14,40 +14,10 @@ We demonstrate CViT's effectiveness across a diverse range of partial differenti
 
 ## Installation
 
-Our code has been tested on Python 3.11 and JAX 0.5.0 with CUDA 12.4. Install the required dependencies by running the following commands: 
-
-```
-pip3 install -U pip
-pip3 install --upgrade jax jaxlib
-pip3 install --upgrade -r requirements.txt
-```
-
-Then install the `cvit` package by running the following command:
-
-```
-git clone https://github.com/PredictiveIntelligenceLab/cvit.git
-cd cvit
-pip install -e .
-```
 
 
 ## Experiments
 
-### Advection 
-
-Further instructions and details on the training and evaluation of the models can be found [here](./adv/README.md).
-
-### Shallow Water 
-
-Further instructions and details on the training and evaluation of the models can be found [here](./swe/README.md).
-
-### Navier-Stokes 
-
-Further instructions and details on the training and evaluation of the models can be found [here](./ns/README.md).
-
-### Diffusion-Reaction
-
-Further instructions and details on the training and evaluation of the models can be found [here](./dr/README.md).
 
 
 
