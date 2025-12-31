@@ -2,10 +2,7 @@
 # Continuous Vision Transformer (CViT)
 
 
-![master_figure-2](figures/cvit_arch.png)
 
-This repository contains code and data accompanying the paper 
-titled [CViT: Continuous Vision Transformer for Operator Learning](https://arxiv.org/abs/2405.13998), published in ICLR 2025.
 
 ## Abstract
 
