@@ -9,9 +9,7 @@ titled [CViT: Continuous Vision Transformer for Operator Learning](https://arxiv
 
 ## Abstract
 
-Operator learning, which aims to approximate maps between infinite-dimensional function spaces, is an important area in scientific machine learning with applications across various physical domains. Here we introduce the Continuous Vision Transformer (CViT), a novel neural operator architecture that leverages advances in computer vision to address challenges in learning complex physical systems.  CViT combines a vision transformer encoder, a novel grid-based coordinate embedding, and a query-wise cross-attention mechanism to effectively capture multi-scale dependencies. This design allows for flexible output representations and consistent evaluation at arbitrary resolutions.
-We demonstrate CViT's effectiveness across a diverse range of partial differential equation (PDE) systems, including fluid dynamics, climate modeling, and reaction-diffusion processes. Our comprehensive experiments show that CViT achieves state-of-the-art performance on multiple benchmarks, often surpassing larger foundation models, even without extensive pretraining and roll-out fine-tuning. Taken together, CViT exhibits robust handling of discontinuous solutions, multi-scale features, and intricate spatio-temporal dynamics. Our contributions can be viewed as a significant step towards adapting advanced computer vision architectures for building more flexible and accurate machine learning models in the physical sciences.
-
+TBU
 ## Installation
 
 
@@ -23,12 +21,11 @@ We demonstrate CViT's effectiveness across a diverse range of partial differenti
 
 
 ## Citation
-    @article{wang2024cvit,
-      title={Cvit: Continuous vision transformer for op-erator learning},
-      author={Wang, Sifan and Seidman, Jacob H and Sankaran, Shyam and Wang, Hanwen and Paris, George J Pappas},
-      journal={arXiv preprint arXiv:2405.13998},
-      volume={3},
-      year={2024}
-    }
+@article{cheng2024mamba,
+  title={Mamba neural operator: Who wins? transformers vs. state-space models for pdes},
+  author={Cheng, Chun-Wun and Huang, Jiahao and Zhang, Yi and Yang, Guang and Sch{\"o}nlieb, Carola-Bibiane and Aviles-Rivero, Angelica I},
+  journal={arXiv preprint arXiv:2410.02113},
+  year={2024}
+}
 
 
