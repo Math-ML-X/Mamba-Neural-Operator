@@ -1,0 +1,25 @@
+train_dict = {}
+# train_dict['dataset_path'] = "/home/ubuntu/volume/data/PDE/data/ShallowWater/PDEBench/npz/train"
+# train_dict['dataset_path'] = "/media/ssd/data_temp/PDE/data/ShallowWater/PDEBench/npz/train"
+train_dict['dataset_path'] = "./data/PDE/data/ShallowWater/PDEBench/npz/train"
+train_dict['n_all_samples'] = 900
+train_dict['reduced_resolution'] = 2
+train_dict['reduced_resolution_t'] = 1
+train_dict['reduced_batch'] = 1
+train_dict['real_space_range'] = [-2.5, 2.5]
+train_dict['real_time_range'] = [0, 1]
+train_dict['in_seq'] = 10
+train_dict['out_seq'] = 91
+
+test_dict = {}
+# test_dict['dataset_path'] = "/home/ubuntu/volume/data/PDE/data/ShallowWater/PDEBench/npz/test"
+# test_dict['dataset_path'] = "/media/ssd/data_temp/PDE/data/ShallowWater/PDEBench/npz/test"
+test_dict['dataset_path'] = "./data/PDE/data/ShallowWater/PDEBench/npz/test"
+test_dict['n_all_samples'] = 100
+test_dict['reduced_resolution'] = 2
+test_dict['reduced_resolution_t'] = 1
+test_dict['reduced_batch'] = 1
+test_dict['real_space_range'] = [-2.5, 2.5]
+test_dict['real_time_range'] = [0, 1]
+test_dict['in_seq'] = 10
+test_dict['out_seq'] = 91
