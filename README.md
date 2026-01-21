@@ -1,5 +1,4 @@
 # Mamba-Neural-Operator-new
-# Continuous Vision Transformer (CViT)
 
 
 
